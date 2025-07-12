@@ -1,0 +1,91 @@
+body{
+margin: 0;
+display: flex;
+justify-content: center;
+height: 100vh;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.contenedor{
+height: 200px;
+width: 350px;
+margin-top: 270px;
+margin-right: 250px;
+}
+
+
+img{
+    margin-top: 200px;
+width: 450px;
+height: 320px;
+object-fit: contain;
+}
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact{
+background-color: #5f9ea0;
+
+
+
+}
+
+button{
+border: none;
+color: white;
+padding: 7px;
+border-radius: 5px;
+}
+
+.Lorem{
+
+    background-color: white;
+    color: black;
+}
+
+.O{
+
+color: #5f9ea0;
+
+}
+
+span{
+
+    color: #5f9ea0;
+}
+
+.a2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px; 
+    
+}
+
+a{
+text-decoration: none;
+color: black;
+padding: 15px;
+}
+
+
+a:hover{
+color: rgb(83, 81, 81);
+
+}
+.span2{
+margin-right: 70px;
+color: black;
+}
+
+.span2:hover{
+
+color: rgb(83, 81, 81);
+
+}
