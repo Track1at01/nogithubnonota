@@ -1,91 +1,133 @@
-body{
-margin: 0;
-display: flex;
-justify-content: center;
-height: 100vh;
-font-family: Arial, Helvetica, sans-serif;
-
-
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-.contenedor{
-height: 200px;
-width: 350px;
-margin-top: 270px;
-margin-right: 250px;
-}
-
-
-img{
-    margin-top: 200px;
-width: 450px;
-height: 320px;
-object-fit: contain;
-}
-
-
-main{
+header {
+    margin: auto;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 300px);
+}
+
+main {
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
-.contact{
-background-color: #5f9ea0;
+.contenedor {
+    height: 300px;
+    width: 400px;
+    margin-top: 300px;
+    margin-right: 200px;
+}
 
 
+.img1 {
+    margin-top: 270px;
+    width: 450px;
+    height: 320px;
+    object-fit: contain;
 
 }
 
-button{
-border: none;
-color: white;
-padding: 7px;
-border-radius: 5px;
+.img2 {
+
+    width: 450px;
+    height: 320px;
+    object-fit: contain;
+    margin-top: 270px;
+    margin-left: 30px;
 }
 
-.Lorem{
+
+
+
+.contact {
+    background-color: #5f9ea0;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.Lorem {
 
     background-color: white;
     color: black;
 }
 
-.O{
-
-color: #5f9ea0;
-
-}
-
-span{
+span {
 
     color: #5f9ea0;
 }
 
-.a2 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 20px; 
-    
-}
-
-a{
-text-decoration: none;
-color: black;
-padding: 15px;
+a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
 }
 
 
-a:hover{
-color: rgb(83, 81, 81);
+a:hover {
+    color: rgb(83, 81, 81);
 
 }
-.span2{
-margin-right: 70px;
-color: black;
+
+.span2 {
+    margin-right: 70px;
+    color: black;
 }
 
-.span2:hover{
+.span2:hover {
 
-color: rgb(83, 81, 81);
+    color: rgb(83, 81, 81);
 
+}
+
+
+.contenedor2 {
+
+    background-color: rgba(171, 171, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 300px;
+    margin-right: 200px;
+    width: 300px;
+
+}
+
+textarea {
+    resize: none;
+    width: 507px;
+    height: 200px;
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.nombre {
+    background-color: #f8f8f8;
+    border: none;
+    width: 500px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.send {
+
+    background-color: #5f9ea0;
+    border: none;
+    width: 510px;
 }
